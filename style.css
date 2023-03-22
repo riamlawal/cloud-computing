@@ -24,10 +24,10 @@ body{
 }
 
 .brand-title{
-  font-size: 1.5rem;
-   margin-left: 1.5rem; 
+  font-size: .9rem;
+   margin-left: 1rem; 
   font-weight: bolder;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .navbar-links ul{
@@ -41,19 +41,19 @@ body{
 .navbar-links li a {
   text-decoration: none;
   color: #fff;
-  padding-right: 5rem;
+  padding-right: 4rem;
    display: block;
 }
 
 .toggle-button{
   position: absolute;
-  top: .75rem;
-  right: 1rem;
+  top: .90rem;
+  right: 2rem;
    display: none; 
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
-  height: 21px;
+  height: 23px;
 }
 
 .toggle-button .bar{
