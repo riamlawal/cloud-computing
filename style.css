@@ -47,7 +47,7 @@ body{
 
 .toggle-button{
   position: absolute;
-  top: .90rem;
+  top: 1.3rem;
   right: 2rem;
    display: none; 
   flex-direction: column;
@@ -215,7 +215,7 @@ body{
 }
 
 .leap img{
-  width: 350px;
+  width: 250px;
   height: 250px;
  border-radius: 10px; 
 }
@@ -237,7 +237,7 @@ body{
 }
 
 .desktop img{
-  width: 350px;
+  width: 250px;
   height: 250px;
   border-radius: 10px;
 }
