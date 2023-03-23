@@ -792,7 +792,7 @@
 
 .across p{
   font-weight: bolder;
-  font-size: 16px !important;
+  font-size: 13px !important;
   /* padding-left: 50px; */
 }
 
@@ -804,23 +804,24 @@
 }
 
 .across ul li a{
-  font-size: 13px;
+  font-size: 10px !important;
   text-decoration: none;
   color: #fff;
+  /* padding: 10px; */
    
 
 }
 
 .africa .follow{
   color: #fff;
-  font-size: 10px !important;
-  /* padding-right: 30px !important; */
-  /* margin-right: 70% !important; */
+  font-size: 8px !important;
+  padding-right: 30px !important; 
+   margin-right: 70% !important; 
 }
 
 .follow p{
   font-size: 18px !important; 
- margin-right: -5% !important;  
+ margin-right: 40% !important;  
 }
 
 
