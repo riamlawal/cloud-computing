@@ -814,13 +814,13 @@
 .africa .follow{
   color: #fff;
   font-size: 10px !important;
-  padding-right: 30px !important;
+  /* padding-right: 30px !important; */
   /* margin-right: 70% !important; */
 }
 
 .follow p{
   font-size: 18px !important; 
-  /* margin-right: -100% !important;  */ */
+ margin-right: -5% !important;  
 }
 
 
