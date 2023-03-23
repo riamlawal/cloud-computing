@@ -218,21 +218,19 @@
   }
   
   .solutions{
-    display: inline-block;
-    flex-wrap: wrap;
-     margin-left: 60px; 
+    display: flex;
+    margin-left: 130px;
   }
   
   .typesetting{
-    display: inline-block;
-    flex-wrap: wrap;
-    margin-left: 60px; 
+    display: flex;
+    margin-left: 130px;
   }
   
   
   .computing{
-     width: 250px !important;
-    height: 200px !important; 
+     width: 270px !important;
+    height: 280px !important; 
     border: 1px solid black;
      margin: 20px; 
      padding: 10px;  
@@ -243,27 +241,26 @@
   .solutions .computing h4{
     margin-top: 20px;
     margin-left: auto;
-    font-size: 18px;
+    font-size: 20px !important;
   }
 
-  
-  .solutions .computing img{
-    width: 30px;
+  .solutions .computing p{
+    font-size: 15px !important;
   }
   
   .typesetting .computing h4{
     margin-top: 20px;
     margin-left: auto;
+    font-size: 20px !important;
   }
 
-  
-  .solutions .computing p{
-    font-size: 20px;
+  .typesetting .computing p{
+    font-size: 15px !important;
   }
   
   .active{
-    display: inline-block;
-    flex-wrap: wrap;
+    display: flex;
+    margin-top: 60px;
   }
   
   .been h1{
@@ -275,13 +272,13 @@
   .product{
     display: inline-block;
     flex-wrap: wrap;
-    margin-left: 80px;
+    margin-left: 50px !important;
     
   }
   
   .top{
     height: 150px;
-    width: 230px;
+    width: 200px !important;
     border: 1px solid black;
       padding-left: 80px;  
       padding-top: 20px; 
@@ -413,7 +410,7 @@
   .display img{
     height: 250px !important;
     width: 300px !important;
-    margin-right: 20px !important; 
+    margin-right: 150px !important; 
     border: 2px solid #002A50;
     border-radius: 10px;
   }
@@ -487,9 +484,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
-    width: 80%;
+    width: 70% !important;
     height: 300px;
-     margin-right: 70px !important; 
+     margin-right: 120px !important; 
     border-radius: 20px;
     margin-top: 70px;
     background-image: linear-gradient(0deg, rgba(7, 7, 7, 0.54), rgba(2, 2, 2, 0.69)), url('pics/cloud.png');
@@ -593,7 +590,7 @@
   
   .backend .frontend p{
     height: 180px !important;
-    width: 310px;
+    width: 280px !important;
     border: 1px solid black;
     margin: 50px;
     padding: 20px;
@@ -630,8 +627,8 @@
     flex-flow: column wrap;
   }
   .backend .developer p{
-    height: 280px;
-    width: 310px;
+    height: 250px !important;
+    width: 280px !important;
     border: 1px solid black;
     margin: 50px;
     padding: 20px;
@@ -657,7 +654,7 @@
   }
   .backend .science p{
     height: 140px;
-    width: 310px;
+    width: 290px !important;
     border: 1px solid black;
     margin: 50px;
     padding: 20px;
@@ -751,7 +748,7 @@
 
 
 .here{
-  font-size: 20px;
+  font-size: 15px !important;
   color: #fff;
 }
 
@@ -760,14 +757,14 @@
   border-radius: 5px;
   color: #ccc;
   font-size: 10px;
-  padding: 10px;
-  margin-top: 50px;
+  padding: 6px;
+  margin-top: 20px;
 }
 
 .here h5{
   color: #fff;
   font-size: 18px !important;
-  margin-top: 10px;
+  margin-top: 7px;
  
  
 }
@@ -795,14 +792,14 @@
 
 .across p{
   font-weight: bolder;
-  font-size: 25px;
-  padding-left: 50px;
+  font-size: 16px !important;
+  /* padding-left: 50px; */
 }
 
 .across ul li {
      list-style-type: none;
      padding: 7px;
-     margin-left: 10px !important;
+     margin-left: 40px !important;
 
 }
 
@@ -816,13 +813,14 @@
 
 .africa .follow{
   color: #fff;
-  font-size: 20px;
-  margin-right: 50% !important;
+  font-size: 10px !important;
+  padding-right: 30px !important;
+  /* margin-right: 70% !important; */
 }
 
 .follow p{
-  /* font-size: 10px !important;
-  margin-right: -100% !important;  */
+  font-size: 18px !important; 
+  /* margin-right: -100% !important;  */ */
 }
 
 
