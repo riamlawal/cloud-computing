@@ -215,7 +215,7 @@ body{
 }
 
 .leap img{
-  width: 250px;
+  width: 350px;
   height: 250px;
  border-radius: 10px; 
 }
@@ -233,11 +233,10 @@ body{
   width: auto;
   height: auto;
   margin-left: 70px; 
-
 }
 
 .desktop img{
-  width: 250px;
+  width: 350px;
   height: 250px;
   border-radius: 10px;
 }

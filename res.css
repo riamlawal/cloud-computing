@@ -50,11 +50,12 @@
   .impact{
     position: absolute;
     top: 80% !important;
-    left: 0 !important;
+    left: 2% !important;
   
   }
   
   .impact h1{
+    text-align: center; 
     font-size: 40px;
     color: #fff;
   }
@@ -126,7 +127,7 @@
   
   .ipsum h6{
     margin-left: 60px;
-     font-size: 40px;
+     font-size: 40px !important;
      color: #002A50;
   }
   
@@ -170,14 +171,14 @@
   .leap{
     width: auto;
     height: auto; 
-     margin-left: 40px; 
+     margin-left: 90px !important; 
     margin-top: 20px;
     
   }
   
   .leap img{
-    width: 350px;
-    height: 250px;
+    width: 300px !important;
+    height: 200px !important;
    border-radius: 10px; 
   }
   
@@ -193,13 +194,13 @@
     
     width: auto;
     height: auto;
-    margin-left: 40px; 
+    margin-left: 90px !important; 
   
   }
   
   .desktop img{
-    width: 350px;
-    height: 250px;
+    width: 350px !important;
+    height: 250px !important;
     border-radius: 10px;
   }
   
@@ -212,8 +213,8 @@
   
   
   .print h2{
-    text-align: center;
-    font-size: 40px;
+    margin-left: 20px;
+    font-size: 40px !important;
   }
   
   .solutions{
@@ -230,8 +231,8 @@
   
   
   .computing{
-     width: 300px;
-    height: 250px; 
+     width: 250px !important;
+    height: 200px !important; 
     border: 1px solid black;
      margin: 20px; 
      padding: 10px;  
@@ -242,11 +243,22 @@
   .solutions .computing h4{
     margin-top: 20px;
     margin-left: auto;
+    font-size: 18px;
+  }
+
+  
+  .solutions .computing img{
+    width: 30px;
   }
   
   .typesetting .computing h4{
     margin-top: 20px;
     margin-left: auto;
+  }
+
+  
+  .solutions .computing p{
+    font-size: 20px;
   }
   
   .active{
@@ -256,7 +268,7 @@
   
   .been h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 30px !important;
     margin-top: 80px;
   }
   
@@ -399,10 +411,9 @@
   }
   
   .display img{
-    height: 250px;
-    width: 330px;
-   margin-right: 70px; 
-     margin-left: 10px; 
+    height: 250px !important;
+    width: 300px !important;
+    margin-right: 20px !important; 
     border: 2px solid #002A50;
     border-radius: 10px;
   }
@@ -478,7 +489,7 @@
     background-position: 100%;
     width: 80%;
     height: 300px;
-     margin-right: 50px; 
+     margin-right: 70px !important; 
     border-radius: 20px;
     margin-top: 70px;
     background-image: linear-gradient(0deg, rgba(7, 7, 7, 0.54), rgba(2, 2, 2, 0.69)), url('pics/cloud.png');
@@ -570,15 +581,18 @@
   .backend{
     display: inline-block;
     flex-wrap: wrap;
+    margin-right: 80px !important;
+
   }
   
   .backend .frontend{
     display: inline-block;
     flex-flow: column wrap;
+    margin-right: 60px !important;
   }
   
   .backend .frontend p{
-    height: 200px;
+    height: 180px !important;
     width: 310px;
     border: 1px solid black;
     margin: 50px;
@@ -727,8 +741,8 @@
 .africa{
   display: flex;
   padding-left: 10px; 
-  padding-right: 30px;
-  margin-right: 10px; 
+  /* padding-right: 30px; */
+  /* margin-right: 10px;  */
    padding-top: 30px;  
    width: 100%; 
    height: 300px; 
@@ -747,12 +761,14 @@
   color: #ccc;
   font-size: 10px;
   padding: 10px;
+  margin-top: 50px;
 }
 
 .here h5{
   color: #fff;
-  font-size: 10px;
-  margin: 10px;
+  font-size: 18px !important;
+  margin-top: 10px;
+ 
  
 }
 
@@ -764,6 +780,7 @@
   background-color: #fff;
   padding: 10px;
   width: 90px;
+  margin-top: 60px;
 }
 
 .short p{
@@ -785,6 +802,7 @@
 .across ul li {
      list-style-type: none;
      padding: 7px;
+     margin-left: 10px !important;
 
 }
 
@@ -799,17 +817,18 @@
 .africa .follow{
   color: #fff;
   font-size: 20px;
+  margin-right: 50% !important;
 }
 
 .follow p{
-  font-size: 18px;
-  padding-right: 90px;
+  /* font-size: 10px !important;
+  margin-right: -100% !important;  */
 }
 
 
 
 .fa-brands{
-   padding: 5px;  
+   /* padding: 5px;   */
  
 
 }
